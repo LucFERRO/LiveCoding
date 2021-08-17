@@ -1,0 +1,87 @@
+
+header {
+    font-size: 1.8em;
+}
+
+#input_area{
+    display: flex;
+}
+
+#fioritures {
+    display: flex;
+}
+
+/* #fioritures>ul {
+    list-style-type: none;
+}
+
+.colorz {
+    visibility: hidden;
+} */
+
+#bold, #italic, #underline{
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* #colors {
+    width: 230px;
+    height: 50px;
+    font-size: 50px;
+    margin-bottom: 20px; 
+} */
+
+#text_html{
+    width: 100%;
+    height: 200px;
+    align-items: start;
+    resize: none;
+    font-size: 2em;
+}
+
+/* #text_css{
+    width: 50%;
+    height: 200px;
+    align-items: start;
+    resize: none;
+    font-size: 2em;
+} */
+
+#live{
+    font-size: 2em;
+}
+
+#count{
+    text-align: right;
+}
+
+#head_live_coding{
+    display: flex;
+}
+
+#gif {
+    width: 75px;
+    height: 75px;
+    visibility: hidden;
+}
+
+#live_coding>h2{
+    font-size: 2.5em;
+}
+
+#progress_bar{
+    width: 100%;
+    height: 10px;
+    background-color: grey;
+    font-size: 1.5em;
+}
+
+#progress{
+    width: 0%;
+    height: 100%;
+    background-color:#18DC54;
+    transition: width 0.1s ease, background-color 1s ease;
+}
+

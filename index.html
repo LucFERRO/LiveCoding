@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="assets/css/style.css" type="text/css"/>
+    <script src="assets/js/08_livecoding.js" defer></script>
+    <title>LiveCoding</title>
+</head>
+<body>
+    <header><h1>Editor HTML & CSS</h1></header>
+    <section id="fioritures">
+        <button id="bold" onclick="boldifiant()" title="Mettre du texte en gras">b</button>
+        <button id="italic" onclick="italifiant()" title="Mettre du texte en italique">i</button>
+        <button id="underline" onclick="souslignifiant()" title="Souligner du texte">u</button>
+        <!-- <button id="colors" onclick="colors()"> Couleurs</button>
+        <ul id="color_list">
+            <li class="colorz"><a href="#">Rouge</a></li>
+            <li class="colorz"><a href="#">Vert</a></li>
+            <li class="colorz"><a href="#">Bleu</a></li>
+        </ul> -->
+    </section>
+    <section id="input_area">
+            <textarea id="text_html" placeholder="Envoie ton code ici" maxlength=""></textarea>
+            <!-- <textarea id="text_css" placeholder="CSS" maxlength=""></textarea> -->
+    </section>
+    <section id="live_coding">
+        <div id="progress_bar">
+            <div id="progress"></div>
+        </div>
+        <p id="count"></p>
+        <div id="head_live_coding">
+            <h2>Live_Coding</h2>
+            <img id="gif" src="assets/img/wish_triforce_animated.gif" alt="">
+        </div>
+        <div>
+            <p id="live"></p>
+        </div>
+
+    </section>
+</body>
+</html>
